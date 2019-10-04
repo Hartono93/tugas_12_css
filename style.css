@@ -1,0 +1,57 @@
+ul {
+  background-color: black;
+  height: 30px;
+  padding-top: 10px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+a {
+  font-size: 18px;
+  font-weight: bolder;
+  position: static;
+  color: white;
+  text-decoration: none;
+}
+
+.slider {
+  column-span: all;
+}
+
+.card {
+  background-color: cyan;
+  background-size: cover;
+  column-count: 4;
+  column-gap: 20px;
+  column-rule-style: solid;
+  padding: 10px 10px 10px 10px;
+  column-span: all;
+}
+
+.slider-img {
+  width: 1310px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  column-span: all;
+  padding-left: 10px;
+}
+
+.p-text {
+  font-size: 12px;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  height: 50px;
+  color:  white;
+}
